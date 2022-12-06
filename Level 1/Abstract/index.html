@@ -4,13 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Abstract</title>
 </head>
 <body>
     <nav>
         <div class="esquerda">
-            <a href="#">Abstract</a> | <a href="#">Help Center</a>
+            <a class="esquerda-link" href="#">Abstract</a> | <a class="esquerda-link" href="#">Help Center</a>
         </div>
         <div class="direita">
             <button class="submit">Submit a request</button>
@@ -20,7 +22,7 @@
     <main>
         <section class="hero">
             <h1>How can we help?</h1>
-            <input type="text" id="search" name="search">
+            <input type="text" id="search" name="search" placeholder="Search:">
         </section>
         <section class="main--content">
             <article class="box">
@@ -29,8 +31,8 @@
                 </div>
                 <div class="box--content">
                     <h2>Using Abstract</h2>
-                    <p>Abstract lets you manage, version, and document your designs in one place.</p>
-                    <a href="#">Learn More →</a>
+                    <p class="box-paragraph">Abstract lets you manage, version, and document your designs in one place.</p>
+                    <a class="box--links" href="#">Learn More →</a>
                 </div>
             </article>
             <article class="box">
@@ -39,8 +41,8 @@
                 </div>
                 <div class="box--content">
                     <h2>Manage your account</h2>
-                    <p>Configure your account settings, such as your email, profile details, and password.</p>
-                    <a href="#">Learn More →</a>
+                    <p class="box-paragraph">Configure your account settings, such as your email, profile details, and password.</p>
+                    <a class="box--links" href="#">Learn More →</a>
                 </div>
             </article>
             <article class="box">
@@ -49,8 +51,8 @@
                 </div>
                 <div class="box--content">
                     <h2>Manage organizations, teams, and projects</h2>
-                    <p>Use Abstract organizations, teams, and projects to organize your people and your work.</p>
-                    <a href="#">Learn More →</a>
+                    <p class="box-paragraph">Use Abstract organizations, teams, and projects to organize your people and your work.</p>
+                    <a class="box--links" href="#">Learn More →</a>
                 </div>
             </article>
             <article class="box">
@@ -59,8 +61,8 @@
                 </div>
                 <div class="box--content">
                     <h2>Manage billing</h2>
-                    <p>Change subscriptions and payment details.</p>
-                    <a href="#">Learn More →</a>
+                    <p class="box-paragraph">Change subscriptions and payment details.</p>
+                    <a class="box--links" href="#">Learn More →</a>
                 </div>
             </article>
             <article class="box">
@@ -69,8 +71,8 @@
                 </div>
                 <div class="box--content">
                     <h2>Authenticate to Abstract</h2>
-                    <p>Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
-                    <a href="#">Learn More →</a>
+                    <p class="box-paragraph">Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+                    <a class="box--links" href="#">Learn More →</a>
                 </div>
             </article>
             <article class="box">
@@ -79,8 +81,8 @@
                 </div>
                 <div class="box--content">
                     <h2>Abstract support</h2>
-                    <p>Get in touch with a human.</p>
-                    <a href="#">Learn More →</a>
+                    <p class="box-paragraph">Get in touch with a human.</p>
+                    <a class="box--links" href="#">Learn More →</a>
                 </div>
             </article>
         </section>
@@ -125,13 +127,13 @@
             <div class="col--4-top">
                 <h4>Contact Us</h4>
                 <ul>
-                    <li><a class="contact--links" href="#">exemple@email.com</a></li>
+                    <li><a class="contact--links" href="mailto:exemple@email.com">exemple@email.com</a></li>
                 </ul>
             </div>
         </div>
         <div class="col--5">
-            <p>© Copyright 2022</p>
-            <p>All rights reserved</p>
+            <p class="copyright">© Copyright 2022</p>
+            <p class="copyright">All rights reserved</p>
         </div>
     </footer>
 </body>
