@@ -1,0 +1,11 @@
+
+
+/* MAIN */
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    width: 60px;
+}
