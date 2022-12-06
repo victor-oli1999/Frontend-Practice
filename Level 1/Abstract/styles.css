@@ -44,7 +44,6 @@ button {
     background: #fff;
     color: #000;
 }
-
 /* MAIN */
 /* HERO */
 .hero {
@@ -59,7 +58,6 @@ input#search {
     width: 50%;
     height: 64px;
 }
-
 /* CONTENT */
 .main--content {
     display: flex;
@@ -89,7 +87,6 @@ input#search {
     color: #4C5FD5;
     font-size: 18px;
 }
-
 /* FOOTER */
 footer {
     background: #000000;
@@ -120,7 +117,6 @@ li {
 .copyright {
     margin: 3px;
 }
-
 /* RESPONSIVO */
 @media (max-width: 1140px) {
     .box {width: 400px;}
@@ -145,7 +141,6 @@ li {
     footer {flex-direction: column;}
     .col--1, .col--2, .col--3, .col--4, .col--5 {text-align: center;} 
 }
-
 @media (max-width: 375px) {
     .main--content {padding: 90px 20px 90px 20px;}
 }
