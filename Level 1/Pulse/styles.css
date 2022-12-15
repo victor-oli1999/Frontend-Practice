@@ -1,0 +1,73 @@
+body {
+    background-color: #EAFAF1;
+    font-family: 'inter';
+    width: 85%;
+    margin: auto;
+}
+h1 {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 55px;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    text-align: center;
+}
+.green {
+    color: #00ad6a;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+.esquerda > a {
+    font-size: 35px;
+    font-weight: bold;
+}
+.direita ul {
+    list-style: none;
+    display: flex;
+}
+.direita > ul > li {
+    font-weight: 600;
+    margin-right: 25px;
+}
+.direita > ul > li > a:hover {
+    color: #000;
+}
+.sign-up {
+    border: solid 2px;
+    padding: 5px 17px;
+}
+a.green.sign-up:hover {
+    color: #00ad6a;
+    box-shadow: -5px 5px #00ad6a;
+}
+
+/* HERO */
+.hero {
+    width: 44%;
+    margin: auto;
+    padding-top: 30px;
+}
+.hero p {
+    margin-top: 20px;
+}
+/* CARDS */
+
+/* COMMENTS */
+
+/* FAQ */
+
+/* FOOTER */
+
+
+.comentario, .faq, footer {
+    display: none;
+}
